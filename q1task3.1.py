@@ -2,14 +2,14 @@ import csv
 from collections import Counter
 import string
 
-input_txt_file = 'allcsv.txt'
+input_txt_file = 'allcsvs.txt'
 output_csv_file = 'topwordscount.csv'
 
 # Reading the text from the file
 with open(input_txt_file, 'r', encoding='utf-8') as file:
     text = file.read()
 
-# Removing punctuation and convert to lowercase
+# Removing punctuation and converting to lowercase
 translator = str.maketrans("", "", string.punctuation)
 text = text.translate(translator).lower()
 

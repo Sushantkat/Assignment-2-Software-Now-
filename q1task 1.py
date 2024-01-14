@@ -2,7 +2,7 @@ import os
 import pandas as pd
 import shutil
 
-csv_folder_path = r'C:\Users\susha\OneDrive\Desktop\SOFTWARE NOW\Assignment 2\data'
+csv_folder_path = r'C:\Users\susha\OneDrive\Desktop\SOFTWARE NOW\Assignment 2\codes\data'
 output_txt_file = 'allcsvs.txt'
 
 # Getting a list of CSV files in the folder
